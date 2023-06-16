@@ -1,3 +1,4 @@
 t commit -m "w"
 git pusht commit -m "w"
+git pusht commit -m "w"
 git push
