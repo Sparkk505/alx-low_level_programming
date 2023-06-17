@@ -10,32 +10,30 @@
 
 int main(void)
 {
-	int m, w, z, y;
+	int f = 0, s;
 
-	for (m = 0 ; m < 7 ; m++)
+	while (f <= 99)
 	{
-	for (w = 0 ; w < 8 ; w++)
-	{
-	for (z = 0 ; z < 9; z++)
-	{
-	for (y = w ; y < 10 ; y++)
-	{
-		if (y != w || z != m)
+		s = f;
+		while (s <= 99)
 		{
-			putchar(m + '0');
-			putchar(w + '0');
-			putchar(' ');
-			putchar(z + '0');
-			putchar(y + '0');
-			if (w != 8)
+			if (s != f)
 			{
-				putchar(',');
+				putchar((f / 10) + 48);
+				putchar((f % 10) + 48);
 				putchar(' ');
+				putchar((s / 10) + 48);
+				putchar((s % 10) + 48);
+
+				if (f != 98 || s != 99)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
+			s++;
 		}
-	}
-	}
-	}
+		f++;
 	}
 	putchar('\n');
 	return (0);
