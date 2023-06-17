@@ -18,19 +18,22 @@ int main(void)
 	{
 	for (z = m ; z < 9; z++)
 	{
-	for (y = w + 1 ; y < 10 ; y++)
+	for (y = w ; y < 10 ; y++)
 	{
-		putchar(m + '0');
-		putchar(w + '0');
-		putchar(' ');
-		putchar(z + '0');
-		putchar(y + '0');
-		if (w != 8)
+		if (m != 0 && w != 0 && z != 0 && y != 0)
 		{
-			putchar(',');
+			putchar(m + '0');
+			putchar(w + '0');
 			putchar(' ');
+			putchar(z + '0');
+			putchar(y + '0');
+			if (w != 8)
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
-	}
+	}	
 	}
 	}
 	}
