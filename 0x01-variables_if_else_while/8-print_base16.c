@@ -16,10 +16,10 @@ int main(void)
 	while (m < 16)
 	{
 		if (m < 10)
-			putchar(n + '0');
+			putchar(m + '0');
 		else
 		{
-			putchar(w)
+			putchar(w);
 			w++;
 		}
 		m++;
