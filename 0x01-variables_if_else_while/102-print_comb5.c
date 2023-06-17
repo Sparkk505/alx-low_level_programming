@@ -20,7 +20,7 @@ int main(void)
 	{
 	for (y = w ; y < 10 ; y++)
 	{
-		if (m != 0 && w != 0 && z != 0 && y != 0)
+		if (y != 0 || z != 0)
 		{
 			putchar(m + '0');
 			putchar(w + '0');
@@ -33,7 +33,7 @@ int main(void)
 				putchar(' ');
 			}
 		}
-	}	
+	}
 	}
 	}
 	}
