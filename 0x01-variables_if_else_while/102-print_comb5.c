@@ -18,7 +18,7 @@ int main(void)
 	{
 	for (z = m ; z < 9; z++)
 	{
-	for (y = w + 1 ; z < 10 ; z++)
+	for (y = w + 1 ; z < 10 ; y++)
 	{
 		putchar(m + '0');
 		putchar(w + '0');
