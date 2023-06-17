@@ -16,11 +16,11 @@ int main(void)
 	{
 	for (w = 0 ; w < 8 ; w++)
 	{
-	for (z = m ; z < 9; z++)
+	for (z = 0 ; z < 9; z++)
 	{
 	for (y = w ; y < 10 ; y++)
 	{
-		if (y != 0 || z != 0)
+		if (y != w || z != m)
 		{
 			putchar(m + '0');
 			putchar(w + '0');
