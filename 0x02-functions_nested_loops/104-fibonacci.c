@@ -18,10 +18,10 @@ int numLength(int num)
 	while (num)
 	{
 		num = num / 10;
-		length += 1;
+		le += 1;
 	}
 
-	return (length);
+	return (le);
 }
 
 /**
@@ -51,7 +51,7 @@ int main(void)
 
 		printf("%lu", f1);
 
-		sum = (f1 + f2) % mx;
+		s = (f1 + f2) % mx;
 		su = f1o + f2o + (f1 + f2) / mx;
 		f1 = f2;
 		f1o = f2o;
