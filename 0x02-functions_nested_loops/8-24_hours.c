@@ -1,12 +1,12 @@
 #include"main.h"
 
 /**
- * m24_hours - function to prints the last digit of a number.
+ * jack_bauer - function to prints the last digit of a number.
  *
  * Return:the last digit of a number.
 */
 
-void m24_hours(void)
+void jack_bauer(void)
 {
 	int w, q;
 
