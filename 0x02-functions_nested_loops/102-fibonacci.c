@@ -16,7 +16,7 @@ int main(void)
 	for (c = 0; c < 50; c++)
 	{
 		s = f1 + f2;
-		printf("%1u", sum);
+		printf("%1u", s);
 
 		f1 = f2;
 		f2 = s;
