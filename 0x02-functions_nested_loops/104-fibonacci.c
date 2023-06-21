@@ -58,7 +58,7 @@ int main(void)
 		f2 = s;
 		f2o = su;
 
-		if (count != 98)
+		if (c != 98)
 			printf(", ");
 		else
 			printf("\n");
