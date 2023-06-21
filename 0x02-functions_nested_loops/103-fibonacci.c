@@ -26,7 +26,7 @@ int main(void)
 		f1 = f2;
 		f2 = s;
 	}
-	printf("%.Of\n", ts);
+	printf("%.0f\n", ts);
 
 	return (0);
 }
