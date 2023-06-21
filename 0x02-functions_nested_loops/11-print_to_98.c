@@ -20,7 +20,7 @@ void  print_to_98(int a)
 			_putchar(' ');
 		}
 	}
-	else
+	else if (a > 98)
 	{
 		for (w = a; w >= 98; w--)
 		{
