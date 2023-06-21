@@ -17,8 +17,8 @@ void m24_hours(void)
 			_putchar((q / 10) + 48);
 			_putchar((q % 10) + 48);
 			_putchar(':');
-			_putchar((min / 10) + 48);
-			_putchar((min % 10) + 48);
+			_putchar((w / 10) + 48);
+			_putchar((w % 10) + 48);
 			_putchar('\n');
 		}
 	}
