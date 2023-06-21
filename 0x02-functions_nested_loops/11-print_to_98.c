@@ -13,7 +13,7 @@ void  print_to_98(int a)
 
 	if (a <	98)
 	{
-		for (w = a; w <= 98; w++)
+		for (w = a; w < 98; w++)
 		{
 			_putchar(w + '0');
 			_putchar(',');
@@ -22,7 +22,7 @@ void  print_to_98(int a)
 	}
 	else if (a > 98)
 	{
-		for (w = a; w >= 98; w--)
+		for (w = a; w > 98; w--)
 		{
 			_putchar(w + '0');
 			_putchar(',');
