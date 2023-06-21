@@ -1,12 +1,12 @@
 #include"main.h"
 
 /**
- * 24_hours - function to prints the last digit of a number.
+ * m24_hours - function to prints the last digit of a number.
  *
  * Return:the last digit of a number.
 */
 
-void 24_hours(void)
+void m24_hours(void)
 {
 	int w, q;
 
