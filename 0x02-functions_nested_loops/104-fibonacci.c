@@ -1,6 +1,30 @@
 #include"main.h"
 
 /**
+ * numLength - returns
+ *
+ * @num: input
+ *
+ * Return: number of digits;
+ *
+ */
+int numLength(int num)
+{
+	int le = 0;
+
+	if (!num)
+		return (1);
+
+	while (num)
+	{
+		num = num / 10;
+		length += 1;
+	}
+
+	return (length);
+}
+
+/**
  * main - entry
  *
  * Description: number input
@@ -17,7 +41,7 @@ int main(void)
 	{
 		if (f1o > 0)
 			printf("%lu", f1o);
-		i = numLength(mx) - 1 - mumLength(f1);
+		i = numLength(mx) - 1 - numLength(f1);
 
 		while (f1o > 0 && i > 0)
 		{
@@ -28,11 +52,11 @@ int main(void)
 		printf("%lu", f1);
 
 		sum = (f1 + f2) % mx;
-		su = fo1 + fo2 + (f1 + f2) / mx;
+		su = f1o + f2o + (f1 + f2) / mx;
 		f1 = f2;
 		f1o = f2o;
-		f2 = sum;
-		f2o = sumo;
+		f2 = s;
+		f2o = su;
 
 		if (count != 98)
 			printf(", ");
