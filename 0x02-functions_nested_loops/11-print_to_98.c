@@ -15,18 +15,14 @@ void  print_to_98(int a)
 	{
 		for (w = a; w < 98; w++)
 		{
-			_putchar(w + '0');
-			_putchar(',');
-			_putchar(' ');
+			printf("%d, ", w);
 		}
 	}
 	else if (a > 98)
 	{
 		for (w = a; w > 98; w--)
 		{
-			_putchar(w + '0');
-			_putchar(',');
-			_putchar(' ');
+			printf("%d, ", w);
 		}
 	}
 	printf("98\n");
