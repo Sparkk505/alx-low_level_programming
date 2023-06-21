@@ -14,12 +14,12 @@ void m24_hours(void)
 	{
 		for (w = 0; w < 60; w++)
 		{
-			-putchar((q / 10) + 48);
-			-putchar((q % 10) + 48);
-			-putchar(':');
-			-putchar((min / 10) + 48);
-			-putchar((min % 10) + 48);
-			-putchar('\n');
+			_putchar((q / 10) + 48);
+			_putchar((q % 10) + 48);
+			_putchar(':');
+			_putchar((min / 10) + 48);
+			_putchar((min % 10) + 48);
+			_putchar('\n');
 		}
 	}
 }
