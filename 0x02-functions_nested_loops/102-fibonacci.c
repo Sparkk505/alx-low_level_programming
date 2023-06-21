@@ -10,13 +10,13 @@
 
 int main(void)
 {
-	int c, s;
-	unsigned long f1 = 0, f2 = 1;
+	int c;
+	unsigned long f1 = 0, f2 = 1, s;
 
 	for (c = 0; c < 50; c++)
 	{
 		s = f1 + f2;
-		printf("%1u", s);
+		printf("%lu", s);
 
 		f1 = f2;
 		f2 = s;
