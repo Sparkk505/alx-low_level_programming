@@ -1,9 +1,9 @@
-#include "main.h"
+#include "main.h"i
 
 /**
  * print_diagonal - draws a diagonal line on the terminal
  *
- * @n:  is the number of times the character \
+ * @n:  is the number of times the character \ w
 */
 
 void print_diagonal(int n)
@@ -17,9 +17,9 @@ void print_diagonal(int n)
 		for (i = 1; i <= n; i++)
 		{
 			for (j = 1; j <= i; j++)
-			_putchar(' ');
+				_putchar(' ');
 			_putchar(92);
 			_putchar('\n');
-		}	
+		}
 	}
 }
