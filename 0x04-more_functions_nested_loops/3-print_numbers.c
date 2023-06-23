@@ -3,13 +3,14 @@
 /**
  * print_numbers - print nums from 0 to 9
  *
- * @a: the first input
  *
- * Return: a * b
+ * Return: 0
 */
 
-int print_numbers(int a)
+void print_numbers(void)
 {
+	int a;
+
 	for (a = 0; a < 10; a++)
 	{
 		_putchar(a + 48);
