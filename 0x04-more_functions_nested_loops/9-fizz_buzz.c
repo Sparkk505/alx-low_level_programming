@@ -1,13 +1,15 @@
 #include "main.h"
 
 /**
- * main - print num 1 - 100
- * 	numvers
+ * main - prints numbers from 1 to 100
+ * if numbers are multiple of 3 print Fizz
+ * if numbers are multiple of 5 print Buzz
+ * if numbers are multiple of 3 and 5 print FizzBuzz
  *
- * Return: always 0
+ * Return: Always 0 (Success)
 */
 
-void main(void)
+int main(void)
 {
 	int n;
 
@@ -22,7 +24,7 @@ void main(void)
 		else
 			printf("%d", n);
 
-		if (num != 100)
+		if (n != 100)
 			printf(" ");
 		else
 			printf("\n");
