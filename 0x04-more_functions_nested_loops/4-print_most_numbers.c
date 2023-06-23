@@ -14,7 +14,7 @@ void print_most_numbers(void)
 	{
 		if (a == 2 || a == 4)
 			break;
-		_putchar(i + 48);
+		_putchar(a + 48);
 	}
 	_putchar('\n');
 }
