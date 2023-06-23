@@ -16,6 +16,7 @@ void more_numbers(void)
 		{
 			_putchar(b + 48);
 		}
+		_putchar('\n');
 	}
 	_putchar('\n');
 }
