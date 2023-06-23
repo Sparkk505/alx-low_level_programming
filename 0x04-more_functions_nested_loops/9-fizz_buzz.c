@@ -2,6 +2,7 @@
 
 /**
  * main - print num 1 - 100
+ * 	numvers
  *
  * Return: always 0
 */
