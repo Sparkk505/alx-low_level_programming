@@ -35,7 +35,7 @@ void largest_prime_factor(long int num)
 	int pn, la;
 
 	while (num % 2 == 0)
-	num = num / 2;
+		num = num / 2;
 
 	for (pn = 3; pn <= _sqrt(num); pn += 2)
 	{
@@ -46,7 +46,7 @@ void largest_prime_factor(long int num)
 		}
 	}
 	if (num > 2)
-	la = num;
+		la = num;
 	printf("%d", la);
 }
 
