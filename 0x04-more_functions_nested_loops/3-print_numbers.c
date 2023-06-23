@@ -12,7 +12,7 @@ int print_numbers(int a)
 {
 	for (a = 0; a < 10; a++)
 	{
-		_putchar(i + 48);
+		_putchar(a + 48);
 	}
 	_putchar('\n');
 }
