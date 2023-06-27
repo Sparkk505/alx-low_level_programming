@@ -3,7 +3,7 @@
 /**
  * print_array - print
  *
- * @w: elements
+ * @n: elements
  * @a: string
  *
  * Return: nothing
@@ -20,5 +20,5 @@ void print_array(int *a, int n)
 		else
 			printf("%d", a[w]);
 	}
-	_putchar('\n');
+	_putchar("\n");
 }
