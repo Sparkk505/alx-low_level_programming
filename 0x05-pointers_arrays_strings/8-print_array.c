@@ -9,16 +9,16 @@
  * Return: nothing
  */
 
-void print_array(int *a, int w)
+void print_array(int *a, int n)
 {
-	int i;
+	int w;
 
-	for (i = 0; i < w; i++)
+	for (w = 0; w < n; w++)
 	{
-		if (i != (w - 1))
-			printf("%d, ", a[i]);
+		if (w != (n - 1))
+			printf("%d, ", a[w]);
 		else
-			printf("%d", a[i]);
+			printf("%d", a[w]);
 	}
 	_putchar('\n');
 }
