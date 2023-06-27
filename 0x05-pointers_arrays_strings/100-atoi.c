@@ -8,7 +8,7 @@
  * Return: is
  */
 
-void _atoi(char *s)
+int _atoi(char *s)
 {
 	unsigned int n = 0;
 	int sg = 1;
@@ -22,5 +22,5 @@ void _atoi(char *s)
 			break;
 	} while (*s++);
 
-	return (num * sign);
+	return (n * sg);
 }
