@@ -19,6 +19,6 @@ int main(void)
 		s += c;
 		putchar(c);
 	}
-	purchar(2772 - s);
+	putchar(2772 - s);
 	return (0);
 }
