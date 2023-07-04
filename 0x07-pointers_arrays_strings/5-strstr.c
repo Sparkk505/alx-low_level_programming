@@ -1,32 +1,27 @@
 #include "main.h"
 
 /**
- * *_strpbrk - search a string for any of a set of bytes
- * @s: string
- * @accept: string to match
- * Return: pointer to the byte in s that matches one of the bytes
- * in accept or null if no such byte is found
-*/
+ * _strstr - prints chessboard
+ *
+ * @haystack: rows.
+ * @needle: s.
+ */
 
-char *_strpbrk(char *s, char *accept)
+char *_strstr(char *haystack, char *needle);
 {
-	int itr, jtr;
-	char *p;
-
-	itr = 0;
-	while (s[itr] != '\0')
+	for (; *haystack != '\0'; haystack++)
 	{
-		jtr = 0;
-		while (accept[jtr] != '\0')
-		{
-			if (accept[jtr] == s[itr])
+		char *l = haystack;
+		char *p = needle;
+
+		while (*l == *p && *p != '\0')
 			{
-				p = &s[itr];
-				return (p);
+				l++;
+				p++;
 			}
-			jtr++;
-		}
-		 itr++;
+
+		if (*p == '\0')
+			return (haystack);
 	}
-	return (0);
+	return (0);
 }
