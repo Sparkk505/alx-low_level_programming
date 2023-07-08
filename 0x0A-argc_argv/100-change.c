@@ -1,3 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/**
+ * main - print
+ * @argc: int
+ * @argv: list
+ * Return: 0
+ */
+
 int main(int argc, char *argv[])
 {
 	if (argc == 2)
@@ -9,8 +19,8 @@ int main(int argc, char *argv[])
 		{
 			if (m >= c[i])
 			{
-				lc += m / c[i];
-				m = (m % c[i]);
+				lc += (m / c[i]);
+				m = m % c[i];
 				if (m % c[i] == 0)
 				{
 					break;
