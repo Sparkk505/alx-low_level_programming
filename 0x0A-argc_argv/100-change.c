@@ -1,33 +1,23 @@
-#include <stdio.h>
-#include <stdlib.h>
-
-/**
- * main - print
- * @argc: int
- * @argv: list
- * Return: 0
- */
-
 int main(int argc, char *argv[])
 {
 	if (argc == 2)
 	{
-	int i, lc = 0, m = atoi(argv[1]);
-	int c[] = {25, 10, 5, 2, 1};
+		int i, lc = 0, m = atoi(argv[1]);
+		int c[] = {25, 10, 5, 2, 1};
 
-	for (i = 0, i < 5, i++)
-	{
-		if (m >= c[i])
+		for (i = 0, i < 5, i++)
 		{
-			lc += m / c[i];
-			m = m % c[i];
-			if (m % c[i] == 0)
+			if (m >= c[i])
 			{
-				break;
+				lc += m / c[i];
+				m = m % c[i];
+				if (m % c[i] == 0)
+				{
+					break;
+				}
 			}
 		}
-	}
-	printf("%d\n", lc);
+		printf("%d\n", lc);
 	}
 	else
 	{
