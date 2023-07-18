@@ -1,0 +1,4 @@
+mod -x README.md
+git add .
+git commit -m "w"
+git push
